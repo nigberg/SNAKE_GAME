@@ -1,5 +1,23 @@
+.game-title{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 .gamefield{
     border: 1px solid black;
-    width: 400px;
-    height: 400px;
+    /* width: 600px;
+    height: 600px; */
+}
+.new-game-button{
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
 }
