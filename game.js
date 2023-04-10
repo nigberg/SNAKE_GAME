@@ -62,7 +62,9 @@ function gameLoop(){
     if (cell.x === snake.x && cell.y === snake.y && index > 4) {
       // End the game
       clearInterval(intervalId);
-      alert("Game over!");
+      if(confirm("Game over! You're lost! Do you want to start a new game?")){
+        location.reload();
+    };
     }
   });
 }
